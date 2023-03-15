@@ -1,0 +1,27 @@
+.work-container{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.project-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 1140px;
+    align-items: center; */
+
+
+    /* width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px; */
+   
+}
+
+@media screen and (max-width: 740px) {
+    .project-container{
+        grid-template-columns: 1fr;
+    }
+} 
