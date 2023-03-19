@@ -35,8 +35,9 @@
 @media screen and (max-width: 640px){
     .project-card{
         height: 100%;
-        width: 35%;
+        width: 90%;
        align-items: center; 
+       margin-left: 10px;
         }
         .project-card img{
             margin-top: 10px;
